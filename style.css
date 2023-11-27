@@ -412,4 +412,66 @@ html body {
     color: var(--bg-white);
     transition: all 0.3s;
 }
-
+/*** A propos ***/
+.apropos .dedal-second {
+    margin-top: 73px;
+}
+.team-block {
+    margin: 0 20px;
+}
+.team-card {
+    background-color: var(--bg-white);
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.team-block-item {
+    display: flex;
+    gap: 80px;
+    margin-bottom: 90px;
+    flex-wrap: nowrap;
+}
+.team-card-detail-name {
+    font-size: 24px;
+    color: var(--bg-secondary);
+    max-width: 192px;
+}
+.team-card-detail-text {
+    font-size: 16px;
+    max-width: 192px;
+    margin: 95px 0;
+}
+.team-card-detail-socials {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.team-card-detail-socials a {
+    background-color: #8795a4;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team-card-detail-socials a i {
+    color: var(--bg-white);
+}
+.team h6 {
+    margin-bottom: 37px;
+}
+.team-card-image img {
+    width: 100%;
+}
+.team .team-card img {
+    transition: ease-in-out 0.3s;
+    vertical-align: middle;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    box-sizing: border-box;
+}
+.team .team-card:hover img {
+    transform: scale(1.02);
+}
