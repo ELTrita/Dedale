@@ -475,3 +475,161 @@ html body {
 .team .team-card:hover img {
     transform: scale(1.02);
 }
+/*** Artistes ***/
+.artiste-card-head-img {
+    width: 100px;
+    height: 100px;
+}
+.artiste-card-head-img img {
+    width: 100%;
+    height: auto;
+}
+.artiste-card {
+    background-color: var(--bg-secondary);
+    color: var(--bg-white);
+    padding: 25px;
+    max-width: 568px;
+}
+.artiste-card-head {
+    display: flex;
+}
+.artiste-card-head-text {
+    padding-left: 23px;
+    padding-top: 8px;
+}
+.artiste-card-body {
+    text-align: justify;
+    font-size: 15px;
+}
+.artiste-card-head-name {
+    font-size: 24px;
+}
+.artiste-card-head-country {
+    font-size: 16px;
+}
+.artiste-block-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 86px;
+    gap: 60px;
+}
+@media (max-width: 1400px) {
+    .artiste-block-item {
+        gap: 30px;
+    }
+}
+@media (max-width: 1200px) {
+    .artiste-block-item {
+        flex-wrap: wrap;
+    }
+    .artiste-block-item {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 500px) {
+    .artiste-card-head-img {
+        width: 75px;
+        height: 75px;
+    }
+    .artiste-card-head-name {
+        font-size: 16px;
+    }
+    .artiste-card-head-country,
+    .artiste-card-body
+    {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .team-block-item {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 560px) {
+    .team-card-detail {
+        max-width: 123px;
+    }
+    .team-card-detail-name {
+        font-size: 13px;
+    }
+    .team-card-detail-text {
+        font-size: 10px;
+        margin: 76px 0;
+    }
+    .team-card {
+        gap: 8px;
+    }
+    .team-card-detail-socials a {
+        width: 30px;
+        height: 30px;
+    }
+    .team-card-detail-socials a i {
+        font-size: 15px;
+    }
+}
+@media (max-width: 430px) {
+    .team-card-detail-text {
+        margin: 50px 0;
+    }
+}
+
+/*** Nos oeuvres ***/
+.oeuvres .dedal-h6 {
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    text-transform: capitalize;
+}
+.oeuvre-block {
+    margin-bottom: 80px;
+}
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+.oeuvre-card {
+    max-width: 450px;
+    margin: 0 10px;
+}
+.oeuvre-card-head {
+    max-width: 450px;
+    max-height: 450px;
+    padding: 25px;
+    background-color: var(--bg-white);
+}
+.oeuvre-card-body {
+    text-align: center;
+}
+.oeuvre-block-footer {
+    padding-top: 40px;
+    margin-left: 10px;
+}
+
+.oeuvre-card-head-img img {
+    width: 100%;
+}
+.oeuvres .oeuvre-card-head-img img {
+    transition: ease-in-out 0.3s;
+    vertical-align: middle;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    box-sizing: border-box;
+}
+.oeuvres .oeuvre-card:hover img {
+    transform: scale(1.02);
+}
+
+@media (max-width: 500px) {
+    .oeuvre-card-head {
+        padding: 10px;
+    }
+    .oeuvre-card-body {
+        font-size: 11px;
+    }
+    .oeuvre-block-footer {
+        font-size: 15px;
+    }
+}
+
+/*
