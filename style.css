@@ -620,16 +620,6 @@ html body {
     transform: scale(1.02);
 }
 
-@media (max-width: 500px) {
-    .oeuvre-card-head {
-        padding: 10px;
-    }
-    .oeuvre-card-body {
-        font-size: 11px;
-    }
-    .oeuvre-block-footer {
-        font-size: 15px;
-    }
-}
+
 
 /*
