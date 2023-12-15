@@ -475,6 +475,50 @@ html body {
 .team .team-card:hover img {
     transform: scale(1.02);
 }
+/*** Contact ***/
+.contact h6 {
+    margin-bottom: 14px;
+    font-size: 36px;
+    margin-top: 48px;
+}
+.contact-info {
+    padding: 0 30px;
+    margin-top: 41px;
+}
+.contact-info-item-first-title {
+    padding-bottom: 15px;
+}
+.contact-info-item-second {
+    margin-top: 20px;
+}
+.contact-info-item-block-info {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #e9f3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color .5s;
+}
+.contact-info-item-block {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-info-item {
+    margin-bottom: 40px;
+}
+.contact-info-item-block-info:hover {
+    color: var(--bg-white);
+    background-color: var(--bg-secondary);
+}
 /*** Artistes ***/
 .artiste-card-head-img {
     width: 100px;
@@ -630,50 +674,7 @@ html body {
         font-size: 15px;
     }
 }
-/*** Contact ***/
-.contact h6 {
-    margin-bottom: 14px;
-    font-size: 36px;
-    margin-top: 48px;
-}
-.contact-info {
-    padding: 0 30px;
-    margin-top: 41px;
-}
-.contact-info-item-first-title {
-    padding-bottom: 15px;
-}
-.contact-info-item-second {
-    margin-top: 20px;
-}
-.contact-info-item-block-info {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #e9f3ff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: background-color .5s;
-}
-.contact-info-item-block {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    margin-bottom: 40px;
-}
-.contact-info {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.contact-info-item {
-    margin-bottom: 40px;
-}
-.contact-info-item-block-info:hover {
-    color: var(--bg-white);
-    background-color: var(--bg-secondary);
-}
+
 /*
     *** container ***
  */
@@ -704,4 +705,4 @@ html body {
     .dedal-header img {
         height: 550px;
     }
-/*
+}
